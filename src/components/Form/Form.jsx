@@ -45,7 +45,7 @@ export default function Form() {
                   <button onClick={() => HandelArrey()}>Test</button>
 
                   <div>
-                        {/* {
+                        {
                               Data.map((e, index) => (
                                     <div>
                                           <h2>{e.name}</h2>
@@ -53,12 +53,12 @@ export default function Form() {
                                           <img src={e.img} alt="" />
                                     </div>
                               ))
-                        } */}
-                        {
+                        }
+                        {/* {
                               Data.map((object) => (
                                     <div>{object.name}</div>
                               ))
-                        }
+                        } */}
                   </div>
             </section>
       )
